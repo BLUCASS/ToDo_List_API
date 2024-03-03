@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2c3e50;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .container {
+    text-align: left;
+    background-color: #1b2734;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 30px;   
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+}
+
+  label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+input, textarea {
+    width: 70%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #000000;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  a {
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #3498db;
+    text-decoration: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  a:hover{
+    font-weight: bold;
+    background-color: #1f618d;
+  }
+  
+  span {
+    color: #000000;
+    font-weight: bold;
+    background-color: #16ef70;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+
+  div.view_title {
+    color: #000000;
+    background-color: #cececfe0;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  h1 {
+    color: #3498db; /* Cor azul para o texto do h1 */
+    animation: pulse 2s infinite; /* Animação de pulsação por 2 segundos, repetindo infinitamente */
+  }
