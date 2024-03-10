@@ -26,22 +26,21 @@ After that, go to your web browser and enter the page http://127.0.0.1:5000
 
 
 ### 📫 HOW TO CONTRIBUTE
-```bash 
-# Fork this repository:
-By clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
-
-# Clone this project:
-git clone https://github.com/BLUCASS/ToDo_List_API
-
-# Create a branch using the command:
-git checkout -b your-new-branch-name
-
-# Make the changes and commit them:
-git commit -m "commit-message"
-
-# Send them to the original branch:
-git push file-origin project-name / local
+If you would like to contribute to the project, please follow these guidelines:
+1. Fork the repository.
+2. Create a new branch:
+``` bash 
+git checkout -b feature/new-feature
 ```
+3. Make your changes and commit them:
+``` bash
+git commit -m "Your commit message"
+```
+4. Push to the branch:
+``` bash
+git push origin feature/new-feature
+```
+5. Submit a pull request.
 
 ### 📸 SCREENSHOTS
 <img alt="adding activity" src="/images/adding_actv.png">
